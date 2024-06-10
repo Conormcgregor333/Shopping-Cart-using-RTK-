@@ -76,7 +76,8 @@ body {
   }
 }
 .select{
-  
+  margin-right: 2rem;
+  margin-left: 1rem;
 select {
   display: block;
   background-color: black;
