@@ -46,6 +46,7 @@ function App() {
             </div>
           </Link>
 
+          <div className="select">
           <select
             name="category"
             id="categories"
@@ -61,6 +62,7 @@ function App() {
               All
             </option>
           </select>
+          </div>
         </div>
       </div>
       {/*       <Circles height={"50"} width={"50"} visible={true} color="black" />

@@ -75,6 +75,8 @@ body {
     }
   }
 }
+.select{
+  
 select {
   display: block;
   background-color: black;
@@ -83,12 +85,13 @@ select {
   color: white;
   height: 2rem;
 
-  margin-top: 0.3rem;
+ /*  margin-top: 0.3rem;
   margin-right: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 1rem; */
   option {
     text-align: end;
   }
+}
 }
 .total {
   font-weight: bold;
