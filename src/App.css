@@ -9,6 +9,25 @@ body {
   font-style: normal;
 }
 .navbar {
+  .select{
+    margin-inline: 1.2rem;
+    margin-top: 0.4rem;
+    select {
+      display: block;
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 0.5rem;
+      color: white;
+      height: 2rem;
+    
+     /*  margin-top: 0.3rem;
+      margin-right: 1.5rem;
+      margin-left: 1rem; */
+      option {
+        text-align: end;
+      }
+    }
+    }
   display: flex;
   justify-content: space-between;
   background-color: black;
@@ -75,25 +94,7 @@ body {
     }
   }
 }
-.select{
-  margin-right: 2rem;
-  margin-left: 1rem;
-select {
-  display: block;
-  background-color: black;
-  border: 1px solid white;
-  border-radius: 0.5rem;
-  color: white;
-  height: 2rem;
 
- /*  margin-top: 0.3rem;
-  margin-right: 1.5rem;
-  margin-left: 1rem; */
-  option {
-    text-align: end;
-  }
-}
-}
 .total {
   font-weight: bold;
   font-size: 1.1rem;
