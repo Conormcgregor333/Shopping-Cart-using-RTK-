@@ -12,6 +12,7 @@ body {
   .select{
     margin-inline: 1.2rem;
     margin-top: 0.4rem;
+   
     select {
       display: block;
       background-color: black;
@@ -19,7 +20,7 @@ body {
       border-radius: 0.5rem;
       color: white;
       height: 2rem;
-    
+      width:4rem;
      /*  margin-top: 0.3rem;
       margin-right: 1.5rem;
       margin-left: 1rem; */
